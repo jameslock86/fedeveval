@@ -22,7 +22,7 @@
     display: none;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 770px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -42,6 +42,7 @@
       display: block;
       text-align: left;
     }
+    
   }
  
     /* hero section */
@@ -72,6 +73,11 @@
     align-items: start;
     justify-content: center;
   }
+  @media only screen and (max-width: 600px) {
+    .column{
+      align-items: center !important; 
+    }
+  }
   .left-column {
     padding-left: 10%; 
     padding-top: 10%;
@@ -101,7 +107,7 @@
   /* section2 */
   .section2{
       padding: 10px 0px;
-      width: 90%;
+      width: 80%;
       margin: auto;
   }
 
@@ -132,7 +138,7 @@
 
 /* section3 */
 .section3{
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 10px 0px;
 }
@@ -162,7 +168,7 @@
 }
 /* section4 */
 .section4{
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 10px 0px;
 }
@@ -233,7 +239,11 @@
       align-items: center;
       justify-content: center;
     }
+    
+     
+    
   }
+
 .cardTitle1{
     font-size: 30px;
     padding: 10px 0;
